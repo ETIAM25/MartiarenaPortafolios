@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: "open sans", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(9, 5, 5);
+    
+}
+
+
+header{
+width: 100%;
+height: 98px;
+background-color: rgb(1, 27, 8);
+}
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin:auto;
+}
+.logo{
+    float: left;
+    padding: 3px 50px 0;
+    
+}
+.logo img{
+    height: 90px;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.menu{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    z-index: 1000;
+}
+.menu ul{
+    list-style: none;
+padding: 0 10px ;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    transition: 3s linear;
+    z-index: 1000;
+}
+.menu ul li:hover{
+    transform: scale(1.1);
+}
+.interior ul li a{
+    color: rgb(105, 7, 7);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: .3s linear;
+    transform: scale(1.1);
+}
+.container h1{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    text-align: center;    
+}
+.container pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(238, 8, 8)
+}
+.container p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    text-align: left;
+    color: rgb(238, 8, 8);
+    
+}
+.sobremi img {
+    height: 40px;
+    margin: 3px;
+}
+
+
+.specialization p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: right;
+    color: rgb(238, 8, 8)
+}
+.specialization img{ 
+   float: inline-end;
+    margin: 3px;
+    height: 40px;
+    width: 40px;
+}
+section img{
+   height: 310px;
+border-radius: 50%;
+   
+}
+section img:hover{
+    transform: scale(1.1);  
+}
+ 
+section pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(238, 8, 8)
+} 
